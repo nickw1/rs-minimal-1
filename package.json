@@ -1,0 +1,6 @@
+{
+	"dependencies": {
+		"@lazarv/react-server": "0.0.0-experimental-d09c5f5-20250114-70d4f6d7",
+		"iron-session": "^8.0.4"
+	}
+}
