@@ -5,6 +5,7 @@ import { actionNewUser } from '../actions/user.mjs';
 
 export default function NewUser() {
 
+	/*  
     const [stateNewUser, modActionNewUser] = useActionState(actionNewUser, {
         userCode: null 
     });
@@ -15,4 +16,7 @@ export default function NewUser() {
         { stateNewUser.userCode ? "User code: " + stateNewUser.userCode : "" }        
         </form>
         </div>;
+	*/
+    // The below alone will trigger the "connection closed" error
+	return <div>A client component</div>;
 }
